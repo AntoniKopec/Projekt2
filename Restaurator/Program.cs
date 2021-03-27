@@ -26,7 +26,6 @@ namespace Restaurator
 
     /* 
     Lista obecnoœci
-    Antoni Kopeæ
 
 
      
