@@ -27,7 +27,7 @@ namespace Restaurator
     /* 
     Lista obecnoœci
     Antoni Kopeæ
-
+    Dominik Witek
      
      */
 }
