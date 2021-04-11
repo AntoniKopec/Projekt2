@@ -27,6 +27,7 @@ namespace Restaurator
     /* 
     Lista obecnoœci
     Antoni Kopeæ
+    Szymon Szymalski
     Dominik Witek
      
      */
