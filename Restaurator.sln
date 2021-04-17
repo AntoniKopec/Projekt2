@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30523.141
+VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurator", "Restaurator\Restaurator.csproj", "{2ECD8487-5D86-4C25-86A7-53E9C5ABB75D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurator", "Restaurator\Restaurator.csproj", "{EEBC2E5E-25FA-4BB8-91E8-6AF5BD683FA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2ECD8487-5D86-4C25-86A7-53E9C5ABB75D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2ECD8487-5D86-4C25-86A7-53E9C5ABB75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2ECD8487-5D86-4C25-86A7-53E9C5ABB75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2ECD8487-5D86-4C25-86A7-53E9C5ABB75D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEBC2E5E-25FA-4BB8-91E8-6AF5BD683FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEBC2E5E-25FA-4BB8-91E8-6AF5BD683FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEBC2E5E-25FA-4BB8-91E8-6AF5BD683FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEBC2E5E-25FA-4BB8-91E8-6AF5BD683FA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FBA91209-2B3D-4C9A-92C8-1493321BF557}
+		SolutionGuid = {558367B3-816E-40CD-BAEE-E6180097EEBE}
 	EndGlobalSection
 EndGlobal

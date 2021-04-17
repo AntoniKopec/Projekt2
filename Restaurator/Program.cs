@@ -1,11 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Restaurator
 {
@@ -23,12 +23,4 @@ namespace Restaurator
                     webBuilder.UseStartup<Startup>();
                 });
     }
-
-    /* 
-    Lista obecnoœci
-    Antoni Kopeæ
-    Szymon Szymalski
-    Dominik Witek
-     
-     */
 }

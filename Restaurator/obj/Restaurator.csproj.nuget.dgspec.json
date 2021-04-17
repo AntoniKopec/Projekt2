@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\Restaurator.csproj": {}
+    "C:\\Users\\szysz\\source\\repos\\Restaurator\\Restaurator\\Restaurator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\Restaurator.csproj": {
+    "C:\\Users\\szysz\\source\\repos\\Restaurator\\Restaurator\\Restaurator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\Restaurator.csproj",
+        "projectUniqueName": "C:\\Users\\szysz\\source\\repos\\Restaurator\\Restaurator\\Restaurator.csproj",
         "projectName": "Restaurator",
-        "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\Restaurator.csproj",
+        "projectPath": "C:\\Users\\szysz\\source\\repos\\Restaurator\\Restaurator\\Restaurator.csproj",
         "packagesPath": "C:\\Users\\szysz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\obj\\",
+        "outputPath": "C:\\Users\\szysz\\source\\repos\\Restaurator\\Restaurator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\szysz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,28 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
