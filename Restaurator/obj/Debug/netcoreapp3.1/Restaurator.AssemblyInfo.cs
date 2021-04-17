@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-Restaurator-48131741-A243-428C-B7FD-5F1A5CA83FCA")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Restaurator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
