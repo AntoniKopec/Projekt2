@@ -1,18 +1,17 @@
 ﻿@page
 @model PrivacyModel
 @{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "API TEST - Restaurator";
     ViewData["ApiKey"] = "AIzaSyDuzPcOAZnhzFy4tt1YMLI65d2zXVYfOrs";
 
 }
-@*<h1>@ViewData["Title"]</h1>*@
 
 <div class="row">
-    <div class="col-md-6">
-        cosik
+    <div class="col-md-2">
+        LISTA MIEJSC
     </div>
-    <div class="col-md-6">
-        <div id="map" style="height:400px; width:400px;"></div>
+    <div class="col-md-8">
+        <div id="map" style="height:800px; width:100%;"></div>
         <script>
             var map;
             function initMap() {
@@ -24,5 +23,8 @@
         </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=@ViewData["ApiKey"]&callback=initMap&libraries=&v=weekly"
                 async></script>
+    </div>
+    <div class="col-md-2">
+        SZUKANIE I FILTRY
     </div>
 </div>

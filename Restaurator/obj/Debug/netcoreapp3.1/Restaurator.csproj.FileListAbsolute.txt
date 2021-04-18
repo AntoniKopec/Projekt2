@@ -77,7 +77,6 @@ C:\Users\szysz\source\repos\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Rest
 C:\Users\szysz\source\repos\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\szysz\source\repos\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
 C:\Users\szysz\source\repos\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
-C:\Users\szysz\source\repos\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\szysz\source\repos\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\szysz\source\repos\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\szysz\source\repos\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -184,3 +183,4 @@ C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\obj\Debug\netcoreapp3.1
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Restaurator.dll
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Restaurator.pdb
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Restaurator.genruntimeconfig.cache
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Razor\Pages\Test_Page_API.cshtml.g.cs
