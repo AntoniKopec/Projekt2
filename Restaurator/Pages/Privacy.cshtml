@@ -2,7 +2,27 @@
 @model PrivacyModel
 @{
     ViewData["Title"] = "Privacy Policy";
-}
-<h1>@ViewData["Title"]</h1>
+    ViewData["ApiKey"] = "AIzaSyDuzPcOAZnhzFy4tt1YMLI65d2zXVYfOrs";
 
-<p>Use this page to detail your site's privacy policy.</p>
+}
+@*<h1>@ViewData["Title"]</h1>*@
+
+<div class="row">
+    <div class="col-md-6">
+        cosik
+    </div>
+    <div class="col-md-6">
+        <div id="map" style="height:400px; width:400px;"></div>
+        <script>
+            var map;
+            function initMap() {
+                map = new google.maps.Map(document.getElementById("map"), {
+                    center: { lat: 52.13, lng: 21.00 },
+                    zoom: 8,
+                });
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=@ViewData["ApiKey"]&callback=initMap&libraries=&v=weekly"
+                async></script>
+    </div>
+</div>
