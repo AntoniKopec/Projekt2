@@ -14,4 +14,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.12" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Restaurator.DataAccess\Restaurator.DataAccess.csproj" />
+    <ProjectReference Include="..\Restaurator.Models\Restaurator.Models.csproj" />
+  </ItemGroup>
+
 </Project>

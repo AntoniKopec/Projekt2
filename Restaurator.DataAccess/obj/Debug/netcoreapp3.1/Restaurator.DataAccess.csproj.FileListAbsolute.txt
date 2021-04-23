@@ -1,0 +1,14 @@
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator.DataAccess\bin\Debug\netcoreapp3.1\Restaurator.DataAccess.deps.json
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator.DataAccess\bin\Debug\netcoreapp3.1\Restaurator.DataAccess.dll
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator.DataAccess\bin\Debug\netcoreapp3.1\Restaurator.DataAccess.pdb
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator.DataAccess\obj\Debug\netcoreapp3.1\Restaurator.DataAccess.csprojAssemblyReference.cache
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator.DataAccess\obj\Debug\netcoreapp3.1\Restaurator.DataAccess.AssemblyInfoInputs.cache
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator.DataAccess\obj\Debug\netcoreapp3.1\Restaurator.DataAccess.AssemblyInfo.cs
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator.DataAccess\obj\Debug\netcoreapp3.1\Restaurator.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator.DataAccess\obj\Debug\netcoreapp3.1\Restaurator.DataAccess.dll
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator.DataAccess\obj\Debug\netcoreapp3.1\Restaurator.DataAccess.pdb
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator.DataAccess\bin\Debug\netcoreapp3.1\Restaurator.Models.dll
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator.DataAccess\bin\Debug\netcoreapp3.1\Restaurator.Utility.dll
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator.DataAccess\bin\Debug\netcoreapp3.1\Restaurator.Models.pdb
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator.DataAccess\bin\Debug\netcoreapp3.1\Restaurator.Utility.pdb
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator.DataAccess\obj\Debug\netcoreapp3.1\Restaurator.DataAccess.csproj.CopyComplete

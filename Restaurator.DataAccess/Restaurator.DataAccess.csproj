@@ -10,4 +10,15 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.12" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+    <Folder Include="Initializer\" />
+    <Folder Include="Repository\IRepository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Restaurator.Models\Restaurator.Models.csproj" />
+    <ProjectReference Include="..\Restaurator.Utility\Restaurator.Utility.csproj" />
+  </ItemGroup>
+
 </Project>

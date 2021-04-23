@@ -480,3 +480,11 @@ C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\ru\M
 C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Restaurator.DataAccess.dll
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Restaurator.Models.dll
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Restaurator.Utility.dll
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Restaurator.DataAccess.pdb
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Restaurator.Models.pdb
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Restaurator.Utility.pdb

@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Restaurator.Data
+namespace Restaurator.DataAccess
 {
     public class ApplicationDbContext : IdentityDbContext
     {

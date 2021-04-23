@@ -26,15 +26,8 @@ using Restaurator;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 3 "C:\Users\szysz\Source\Repos\Restaurator\Restaurator\Pages\_ViewImports.cshtml"
-using Restaurator.Data;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ed676decfc228ea6a9293eef5bd64924c28dcf11", @"/Pages/Test_Page_API.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cc5ea8f1234beaefc23fc8a3b0f372a46b6bc849", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6c0b0dcceb5448b4efb07ce426b8a34b1ab70e3c", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Test_Page_API : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         #pragma warning disable 1998

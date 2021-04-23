@@ -3068,6 +3068,30 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Restaurator.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.12",
+          "Microsoft.AspNetCore.Mvc": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/Restaurator.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurator.Models.dll": {}
+        }
+      },
+      "Restaurator.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Restaurator.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurator.Utility.dll": {}
+        }
       }
     }
   },
@@ -9411,13 +9435,25 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Restaurator.Models/1.0.0": {
+      "type": "project",
+      "path": "../Restaurator.Models/Restaurator.Models.csproj",
+      "msbuildProject": "../Restaurator.Models/Restaurator.Models.csproj"
+    },
+    "Restaurator.Utility/1.0.0": {
+      "type": "project",
+      "path": "../Restaurator.Utility/Restaurator.Utility.csproj",
+      "msbuildProject": "../Restaurator.Utility/Restaurator.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.12",
       "Microsoft.AspNetCore.Mvc >= 2.2.0",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.12"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.12",
+      "Restaurator.Models >= 1.0.0",
+      "Restaurator.Utility >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9446,7 +9482,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Models\\Restaurator.Models.csproj": {
+              "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Models\\Restaurator.Models.csproj"
+            },
+            "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj": {
+              "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
