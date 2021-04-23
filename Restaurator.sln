@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurator.DataAccess", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurator.Models", "Restaurator.Models\Restaurator.Models.csproj", "{1E733512-9F89-4113-A1EA-39303626AD3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurator.Utility", "Restaurator.Utility\Restaurator.Utility.csproj", "{C3E0318F-FD05-4507-9535-1503D0289B3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1E733512-9F89-4113-A1EA-39303626AD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E733512-9F89-4113-A1EA-39303626AD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E733512-9F89-4113-A1EA-39303626AD3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E0318F-FD05-4507-9535-1503D0289B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E0318F-FD05-4507-9535-1503D0289B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E0318F-FD05-4507-9535-1503D0289B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E0318F-FD05-4507-9535-1503D0289B3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
