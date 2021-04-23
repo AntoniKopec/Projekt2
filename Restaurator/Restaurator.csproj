@@ -19,4 +19,10 @@
     <ProjectReference Include="..\Restaurator.Models\Restaurator.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\Admin\" />
+    <Folder Include="Pages\User\Home\" />
+    <Folder Include="Pages\User\Favourite\" />
+  </ItemGroup>
+
 </Project>
