@@ -63,6 +63,17 @@ namespace Restaurator.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
+
+            [Required]
+            public string FirstName { get; set; }
+
+            [Required]
+            public string LastName { get; set; }
+
+            [Required]
+            public string UserName { get; set; }
+
+
         }
 
         public async Task OnGetAsync(string returnUrl = null)
