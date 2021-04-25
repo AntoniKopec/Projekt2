@@ -13,6 +13,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using Restaurator.Models;
+using Restaurator.Utility;
 
 namespace Restaurator.Areas.Identity.Pages.Account
 {
@@ -84,14 +86,39 @@ namespace Restaurator.Areas.Identity.Pages.Account
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
+            string role = Request.Form["rdUserRole"].ToString();
+
             returnUrl = returnUrl ?? Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new IdentityUser { UserName = Input.Email, Email = Input.Email };
+                var user = new ApplicationUser
+                { 
+                    UserName = Input.UserName,
+                    Email = Input.Email,
+                    FirstName = Input.FirstName,
+                    LastName = Input.LastName
+                };
+
                 var result = await _userManager.CreateAsync(user, Input.Password);
+                if(!await _roleManager.RoleExistsAsync(StaticDetails.UserRole))
+                {
+                    _roleManager.CreateAsync(new IdentityRole(StaticDetails.UserRole)).GetAwaiter().GetResult();
+                }
+
                 if (result.Succeeded)
                 {
+
+                    if(role == StaticDetails.UserRole)
+                    {
+                        await _userManager.AddToRoleAsync(user, StaticDetails.UserRole);
+                    }
+                    else
+                    {
+                        await _userManager.AddToRoleAsync(user, StaticDetails.UserRole);
+                    }
+
+
                     _logger.LogInformation("User created a new account with password.");
 
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
