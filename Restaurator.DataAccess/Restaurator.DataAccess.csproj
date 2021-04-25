@@ -5,18 +5,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Initializer\**" />
+    <EmbeddedResource Remove="Initializer\**" />
+    <None Remove="Initializer\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.12" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.12" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Initializer\" />
+    <ProjectReference Include="..\Restaurator.Models\Restaurator.Models.csproj" />
+    <ProjectReference Include="..\Restaurator.Utility\Restaurator.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Restaurator.Models\Restaurator.Models.csproj" />
-    <ProjectReference Include="..\Restaurator.Utility\Restaurator.Utility.csproj" />
+    <Folder Include="Data\Initializer\" />
   </ItemGroup>
 
 </Project>

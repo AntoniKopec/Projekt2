@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Restaurator.DataAccess.Repository.IRepository
+namespace Restaurator.DataAccess.Data.Repository.IRepository
 {
     public interface IUnitOfWork : IDisposable
     {
+        IApplicationUserRepository ApplicationUser { get;}
         void Save();
     }
 }

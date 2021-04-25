@@ -1,12 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Restaurator.DataAccess.Repository.IRepository;
+using Restaurator.DataAccess.Data.Repository.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace Restaurator.DataAccess.Repository
+namespace Restaurator.DataAccess.Data.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {

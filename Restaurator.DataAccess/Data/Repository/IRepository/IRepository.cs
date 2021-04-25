@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace Restaurator.DataAccess.Repository.IRepository
+namespace Restaurator.DataAccess.Data.Repository.IRepository
 {
     public interface IRepository<T> where T : class
     {

@@ -1,9 +1,9 @@
-﻿using Restaurator.DataAccess.Repository.IRepository;
+﻿using Restaurator.DataAccess.Data.Repository.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Restaurator.DataAccess.Repository
+namespace Restaurator.DataAccess.Data.Repository
 {
     class UnitOfWork : IUnitOfWork
     {
@@ -11,8 +11,11 @@ namespace Restaurator.DataAccess.Repository
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
+            ApplicationUser = new ApplicationUserRepository(_db);
 
         }
+
+        public IApplicationUserRepository ApplicationUser { get; private set; }
 
         public void Dispose()
         {
