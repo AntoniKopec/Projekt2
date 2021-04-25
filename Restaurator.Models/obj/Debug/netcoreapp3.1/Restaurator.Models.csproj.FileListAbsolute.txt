@@ -7,3 +7,12 @@ C:\Users\szysz\Source\Repos\Restaurator\Restaurator.Models\obj\Debug\netcoreapp3
 C:\Users\szysz\Source\Repos\Restaurator\Restaurator.Models\obj\Debug\netcoreapp3.1\Restaurator.Models.csproj.CoreCompileInputs.cache
 C:\Users\szysz\Source\Repos\Restaurator\Restaurator.Models\obj\Debug\netcoreapp3.1\Restaurator.Models.dll
 C:\Users\szysz\Source\Repos\Restaurator\Restaurator.Models\obj\Debug\netcoreapp3.1\Restaurator.Models.pdb
+C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator.Models\bin\Debug\netcoreapp3.1\Restaurator.Models.deps.json
+C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator.Models\bin\Debug\netcoreapp3.1\Restaurator.Models.dll
+C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator.Models\bin\Debug\netcoreapp3.1\Restaurator.Models.pdb
+C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator.Models\obj\Debug\netcoreapp3.1\Restaurator.Models.csprojAssemblyReference.cache
+C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator.Models\obj\Debug\netcoreapp3.1\Restaurator.Models.AssemblyInfoInputs.cache
+C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator.Models\obj\Debug\netcoreapp3.1\Restaurator.Models.AssemblyInfo.cs
+C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator.Models\obj\Debug\netcoreapp3.1\Restaurator.Models.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator.Models\obj\Debug\netcoreapp3.1\Restaurator.Models.dll
+C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator.Models\obj\Debug\netcoreapp3.1\Restaurator.Models.pdb
