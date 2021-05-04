@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace Restaurator.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class UserController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
