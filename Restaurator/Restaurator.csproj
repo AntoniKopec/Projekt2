@@ -24,9 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Admin\" />
-    <Folder Include="Pages\User\Home\" />
-    <Folder Include="Pages\User\Favourite\" />
+    <Folder Include="Pages\Admin\User\Home\" />
+    <Folder Include="Pages\Admin\User\Favourite\" />
     <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 

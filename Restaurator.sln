@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurator", "Restaurator\Restaurator.csproj", "{EEBC2E5E-25FA-4BB8-91E8-6AF5BD683FA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurator.DataAccess", "Restaurator.DataAccess\Restaurator.DataAccess.csproj", "{BA34772F-FCDE-4887-87E5-8E53BE5992BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurator.DataAccess", "Restaurator.DataAccess\Restaurator.DataAccess.csproj", "{BA34772F-FCDE-4887-87E5-8E53BE5992BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurator.Models", "Restaurator.Models\Restaurator.Models.csproj", "{1E733512-9F89-4113-A1EA-39303626AD3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurator.Models", "Restaurator.Models\Restaurator.Models.csproj", "{1E733512-9F89-4113-A1EA-39303626AD3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurator.Utility", "Restaurator.Utility\Restaurator.Utility.csproj", "{C3E0318F-FD05-4507-9535-1503D0289B3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurator.Utility", "Restaurator.Utility\Restaurator.Utility.csproj", "{C3E0318F-FD05-4507-9535-1503D0289B3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
