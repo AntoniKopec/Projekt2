@@ -2745,6 +2745,9 @@
         }
       },
       "Restaurator.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "3.1.13"
+        },
         "runtime": {
           "Restaurator.Utility.dll": {}
         },

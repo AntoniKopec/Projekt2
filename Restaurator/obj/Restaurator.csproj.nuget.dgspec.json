@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\Restaurator.csproj": {}
+    "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator\\Restaurator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj": {
+    "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj",
         "projectName": "Restaurator.DataAccess",
-        "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj",
+        "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj",
         "packagesPath": "C:\\Users\\szysz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\szysz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Models\\Restaurator.Models.csproj": {
-                "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Models\\Restaurator.Models.csproj"
+              "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Models\\Restaurator.Models.csproj": {
+                "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Models\\Restaurator.Models.csproj"
               },
-              "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj": {
-                "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj"
+              "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Utility\\Restaurator.Utility.csproj": {
+                "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Utility\\Restaurator.Utility.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Models\\Restaurator.Models.csproj": {
+    "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Models\\Restaurator.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Models\\Restaurator.Models.csproj",
+        "projectUniqueName": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Models\\Restaurator.Models.csproj",
         "projectName": "Restaurator.Models",
-        "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Models\\Restaurator.Models.csproj",
+        "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Models\\Restaurator.Models.csproj",
         "packagesPath": "C:\\Users\\szysz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Models\\obj\\",
+        "outputPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\szysz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -143,14 +143,14 @@
         }
       }
     },
-    "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj": {
+    "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Utility\\Restaurator.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Utility\\Restaurator.Utility.csproj",
         "projectName": "Restaurator.Utility",
-        "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj",
+        "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Utility\\Restaurator.Utility.csproj",
         "packagesPath": "C:\\Users\\szysz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\obj\\",
+        "outputPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\szysz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -178,6 +178,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -197,14 +203,14 @@
         }
       }
     },
-    "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\Restaurator.csproj": {
+    "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator\\Restaurator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\Restaurator.csproj",
+        "projectUniqueName": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator\\Restaurator.csproj",
         "projectName": "Restaurator",
-        "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\Restaurator.csproj",
+        "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator\\Restaurator.csproj",
         "packagesPath": "C:\\Users\\szysz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\obj\\",
+        "outputPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\szysz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -221,11 +227,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj"
+              "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj"
               },
-              "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Models\\Restaurator.Models.csproj": {
-                "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Models\\Restaurator.Models.csproj"
+              "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Models\\Restaurator.Models.csproj": {
+                "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Models\\Restaurator.Models.csproj"
               }
             }
           }

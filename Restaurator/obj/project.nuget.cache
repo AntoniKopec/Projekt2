@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WLN8AETV07Ikq4+9TXQxRFrabQ+lS2FnkMdr9tSxn5g5PrJkwnExmS6OCAJAZaZZMXYnsgjlLuuyDVtTwazXhw==",
+  "dgSpecHash": "D209ZAvVxVaV9UgCILrh0gsxAGAVHFihx74WrT1sEw0roxzWMRNAxBrRzRlOKTvX0cD+IczEtA7tdj9B4OjBog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\Restaurator.csproj",
+  "projectFilePath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator\\Restaurator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\szysz\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\szysz\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

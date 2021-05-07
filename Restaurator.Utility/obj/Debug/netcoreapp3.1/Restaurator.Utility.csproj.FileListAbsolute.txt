@@ -16,3 +16,12 @@ C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator.Utility\obj\Debug\netco
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator.Utility\obj\Debug\netcoreapp3.1\Restaurator.Utility.csproj.CoreCompileInputs.cache
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator.Utility\obj\Debug\netcoreapp3.1\Restaurator.Utility.dll
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator.Utility\obj\Debug\netcoreapp3.1\Restaurator.Utility.pdb
+C:\Users\szysz\Source\Repos\Restaurator2\Restaurator.Utility\bin\Debug\netcoreapp3.1\Restaurator.Utility.deps.json
+C:\Users\szysz\Source\Repos\Restaurator2\Restaurator.Utility\bin\Debug\netcoreapp3.1\Restaurator.Utility.dll
+C:\Users\szysz\Source\Repos\Restaurator2\Restaurator.Utility\bin\Debug\netcoreapp3.1\Restaurator.Utility.pdb
+C:\Users\szysz\Source\Repos\Restaurator2\Restaurator.Utility\obj\Debug\netcoreapp3.1\Restaurator.Utility.csprojAssemblyReference.cache
+C:\Users\szysz\Source\Repos\Restaurator2\Restaurator.Utility\obj\Debug\netcoreapp3.1\Restaurator.Utility.AssemblyInfoInputs.cache
+C:\Users\szysz\Source\Repos\Restaurator2\Restaurator.Utility\obj\Debug\netcoreapp3.1\Restaurator.Utility.AssemblyInfo.cs
+C:\Users\szysz\Source\Repos\Restaurator2\Restaurator.Utility\obj\Debug\netcoreapp3.1\Restaurator.Utility.csproj.CoreCompileInputs.cache
+C:\Users\szysz\Source\Repos\Restaurator2\Restaurator.Utility\obj\Debug\netcoreapp3.1\Restaurator.Utility.dll
+C:\Users\szysz\Source\Repos\Restaurator2\Restaurator.Utility\obj\Debug\netcoreapp3.1\Restaurator.Utility.pdb
