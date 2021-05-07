@@ -33,10 +33,12 @@ namespace Restaurator.Controllers
             if(objFromDB.LockoutEnd!=null && objFromDB.LockoutEnd > DateTime.Now)
             {
                 objFromDB.LockoutEnd = DateTime.Now;
+                objFromDB.LockoutEnabled = false;
             }
             else
             {
                 objFromDB.LockoutEnd = DateTime.Now.AddYears(100);
+                objFromDB.LockoutEnabled = true;
             }
             _unitOfWork.Save();
 

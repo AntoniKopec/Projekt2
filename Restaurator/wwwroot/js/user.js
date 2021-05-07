@@ -22,14 +22,14 @@ function loadList() {
                     if (lockout > today) {
                         //currently user is locked
                         return `<div class="text-center">
-                        <a class="btn btn-danger text-white" style="cussor:pointer; width:100px;" onclick=LockUnlock('${data.id}')>
-                            <i class="far fa-trash-alt  "></i> Unlock
+                        <a class="btn btn-danger text-white" style="cursor:pointer; width:130px;" onclick=LockUnlock('${data.id}')>
+                            <i class="fas fa-lock-open"></i> Unlock
                         </a></div>`;
                     }
                     else {
                         return `<div class="text-center">
-                        <a class="btn btn-success text-white" style="cussor:pointer; width:100px;" onclick=LockUnlock('${data.id}')>
-                            <i class="far fa-trash-alt  "></i> Lock
+                        <a class="btn btn-success text-white" style="cursor:pointer; width:130px;" onclick=LockUnlock('${data.id}')>
+                            <i class="fas fa-lock"></i> Lock
                         </a></div>`;
                     }
                 }, "width": "30%"
@@ -39,5 +39,23 @@ function loadList() {
             "emptyTable": "no data found."
         },
         "width": "100%"
+    });
+}
+
+function LockUnlock(id) {
+    $.ajax({
+        type: 'POST',
+        url: '/api/User',
+        data: JSON.stringify(id),
+        contentType: "application/json",
+        success: function (data) {
+            if (data.success) {
+                toastr.success(data.message);
+                dataTable.ajax.reload();
+            }
+            else {
+                toastr.error(data.message);
+            }
+        }
     });
 }
