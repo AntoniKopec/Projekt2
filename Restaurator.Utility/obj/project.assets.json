@@ -631,19 +631,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\szysz\\.nuget\\packages\\": {}
+    "C:\\Users\\anton\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj",
+      "projectUniqueName": "C:\\Users\\anton\\Desktop\\Projekt_2\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj",
       "projectName": "Restaurator.Utility",
-      "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj",
-      "packagesPath": "C:\\Users\\szysz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\obj\\",
+      "projectPath": "C:\\Users\\anton\\Desktop\\Projekt_2\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj",
+      "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anton\\Desktop\\Projekt_2\\Restaurator\\Restaurator.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\szysz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -655,7 +655,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -667,7 +666,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.UI": {
             "target": "Package",
@@ -685,11 +683,14 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

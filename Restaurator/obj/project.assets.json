@@ -10317,19 +10317,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\szysz\\.nuget\\packages\\": {}
+    "C:\\Users\\anton\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\Restaurator.csproj",
+      "projectUniqueName": "C:\\Users\\anton\\Desktop\\Projekt_2\\Restaurator\\Restaurator\\Restaurator.csproj",
       "projectName": "Restaurator",
-      "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\Restaurator.csproj",
-      "packagesPath": "C:\\Users\\szysz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\obj\\",
+      "projectPath": "C:\\Users\\anton\\Desktop\\Projekt_2\\Restaurator\\Restaurator\\Restaurator.csproj",
+      "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anton\\Desktop\\Projekt_2\\Restaurator\\Restaurator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\szysz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10341,13 +10341,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj"
+            "C:\\Users\\anton\\Desktop\\Projekt_2\\Restaurator\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\anton\\Desktop\\Projekt_2\\Restaurator\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj"
             },
-            "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Models\\Restaurator.Models.csproj": {
-              "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Models\\Restaurator.Models.csproj"
+            "C:\\Users\\anton\\Desktop\\Projekt_2\\Restaurator\\Restaurator.Models\\Restaurator.Models.csproj": {
+              "projectPath": "C:\\Users\\anton\\Desktop\\Projekt_2\\Restaurator\\Restaurator.Models\\Restaurator.Models.csproj"
             }
           }
         }
@@ -10360,7 +10359,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
@@ -10411,7 +10409,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

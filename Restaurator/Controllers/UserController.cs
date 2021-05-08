@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Restaurator.DataAccess.Data.Repository.IRepository;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,7 @@ namespace Restaurator.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UserController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

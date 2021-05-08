@@ -1430,3 +1430,4 @@ C:\Users\szysz\Source\Repos\Restaurator2\Restaurator\obj\Debug\netcoreapp3.1\Res
 C:\Users\szysz\Source\Repos\Restaurator2\Restaurator\obj\Debug\netcoreapp3.1\Restaurator.dll
 C:\Users\szysz\Source\Repos\Restaurator2\Restaurator\obj\Debug\netcoreapp3.1\Restaurator.pdb
 C:\Users\szysz\Source\Repos\Restaurator2\Restaurator\obj\Debug\netcoreapp3.1\Restaurator.genruntimeconfig.cache
+C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\User\Index.cshtml.g.cs
