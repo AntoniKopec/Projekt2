@@ -10322,11 +10322,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator\\Restaurator.csproj",
+      "projectUniqueName": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\Restaurator.csproj",
       "projectName": "Restaurator",
-      "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator\\Restaurator.csproj",
+      "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\Restaurator.csproj",
       "packagesPath": "C:\\Users\\szysz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator\\obj\\",
+      "outputPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\szysz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10343,11 +10343,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj"
+            "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.DataAccess\\Restaurator.DataAccess.csproj"
             },
-            "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Models\\Restaurator.Models.csproj": {
-              "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Models\\Restaurator.Models.csproj"
+            "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Models\\Restaurator.Models.csproj": {
+              "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Models\\Restaurator.Models.csproj"
             }
           }
         }

@@ -636,11 +636,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Utility\\Restaurator.Utility.csproj",
+      "projectUniqueName": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj",
       "projectName": "Restaurator.Utility",
-      "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Utility\\Restaurator.Utility.csproj",
+      "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj",
       "packagesPath": "C:\\Users\\szysz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.Utility\\obj\\",
+      "outputPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\szysz\\AppData\\Roaming\\NuGet\\NuGet.Config",
