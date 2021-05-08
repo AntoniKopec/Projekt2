@@ -50,17 +50,18 @@
                         </div>
                         <div class="py-2">
                             <div>
-                                <input type="password"  asp-for="Input.ConfirmPassword" autocomplete="off" placeholder="Powtórz hasło" class="form-control" />
+                                <input type="password" asp-for="Input.ConfirmPassword" autocomplete="off" placeholder="Powtórz hasło" class="form-control" />
                                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
                             </div>
                             <div class="py-2">
                                 <input type="radio" name="rdUserRole" value="@StaticDetails.UserRole" /> @StaticDetails.UserRole
+                                <input type="radio" name="rdUserRole" value="@StaticDetails.AdminRole" /> @StaticDetails.AdminRole
                             </div>
-
+                            
                             <div class="py-2">
                                 <button type="submit" class="btn btn-success form-control">Zarejestruj się</button>
                             </div>
-                            <hr/>
+                            <hr />
                             <p>
                                 Klikajac <em>Zarejestruj się</em> oświadczasz, że zapoznałeś się z treścią <a href="" target="_blank">regulaminu</a> oraz akceptujesz jego treść.
                             </p>

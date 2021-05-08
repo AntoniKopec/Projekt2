@@ -104,20 +104,28 @@ namespace Restaurator.Areas.Identity.Pages.Account
                 if(!await _roleManager.RoleExistsAsync(StaticDetails.UserRole))
                 {
                     _roleManager.CreateAsync(new IdentityRole(StaticDetails.UserRole)).GetAwaiter().GetResult();
+                    _roleManager.CreateAsync(new IdentityRole(StaticDetails.AdminRole)).GetAwaiter().GetResult();
                 }
 
                 if (result.Succeeded)
                 {
 
-                    if(role == StaticDetails.UserRole)
+                    if (role == StaticDetails.UserRole)
                     {
                         await _userManager.AddToRoleAsync(user, StaticDetails.UserRole);
                     }
                     else
                     {
-                        await _userManager.AddToRoleAsync(user, StaticDetails.UserRole);
-                    }
+                        if (role == StaticDetails.AdminRole)
+                        {
+                            await _userManager.AddToRoleAsync(user, StaticDetails.AdminRole);
+                        }
+                        else
+                        {
+                            await _userManager.AddToRoleAsync(user, StaticDetails.UserRole);
 
+                        }
+                    }
 
                     _logger.LogInformation("User created a new account with password.");
 

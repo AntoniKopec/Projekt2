@@ -7,6 +7,8 @@ namespace Restaurator.Utility
     public static class StaticDetails
     {
         public const string UserRole = "User";
+        public const string AdminRole = "Admin";
 
     }
 }
+    
