@@ -3409,7 +3409,10 @@
         },
         "runtime": {
           "bin/placeholder/Restaurator.DataAccess.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Restaurator.Models/1.0.0": {
         "type": "project",
@@ -3436,7 +3439,10 @@
         },
         "runtime": {
           "bin/placeholder/Restaurator.Utility.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
