@@ -13,24 +13,24 @@
             <div class="col-8 offset-2">
                 <div class="card">
                     <div class="card-body px-lg-5 pt-4">
-                        <h3 class="col-12 text-success text-center py-4"><strong>Rejestracja</strong></h3>
+                        <h3 class="col-12 text-success text-center py-4"><strong>Sign On</strong></h3>
                         <hr />
                         <div class="py-2">
                             <div>
-                                <input type="text" asp-for="Input.UserName" autocomplete="off" placeholder="Nazwa użytkownika" class="form-control" />
+                                <input type="text" asp-for="Input.UserName" autocomplete="off" placeholder="User Name" class="form-control" />
                                 <span asp-validation-for="Input.UserName" class="text-danger"></span>
                             </div>
                         </div>
                         <div class="form-row py-2">
                             <div class="col">
                                 <div>
-                                    <input type="text" asp-for="Input.FirstName" autocomplete="off" placeholder="Imie" class="form-control" />
+                                    <input type="text" asp-for="Input.FirstName" autocomplete="off" placeholder="First Name" class="form-control" />
                                     <span asp-validation-for="Input.FirstName" class="text-danger"></span>
                                 </div>
                             </div>
                             <div class="col">
                                 <div>
-                                    <input type="text" asp-for="Input.LastName" autocomplete="off" placeholder="Nazwisko" class="form-control" />
+                                    <input type="text" asp-for="Input.LastName" autocomplete="off" placeholder="Last Name" class="form-control" />
                                     <span asp-validation-for="Input.LastName" class="text-danger"></span>
                                 </div>
                             </div>
@@ -44,27 +44,27 @@
                         </div>
                         <div class="py-2">
                             <div>
-                                <input type="password" asp-for="Input.Password" autocomplete="off" placeholder="Hasło" class="form-control" />
+                                <input type="password" asp-for="Input.Password" autocomplete="off" placeholder="Password" class="form-control" />
                                 <span asp-validation-for="Input.Password" class="text-danger"></span>
                             </div>
                         </div>
                         <div class="py-2">
                             <div>
-                                <input type="password" asp-for="Input.ConfirmPassword" autocomplete="off" placeholder="Powtórz hasło" class="form-control" />
+                                <input type="password" asp-for="Input.ConfirmPassword" autocomplete="off" placeholder="Cofirm Password" class="form-control" />
                                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
                             </div>
                             <div class="py-2">
                                 <input type="radio" name="rdUserRole" value="@StaticDetails.UserRole" /> @StaticDetails.UserRole
                                 <input type="radio" name="rdUserRole" value="@StaticDetails.AdminRole" /> @StaticDetails.AdminRole
                             </div>
-                            
+                            <p class="text-center">
+                                I agree to the <a href="" target="_blank">Term of Use </a> and I have read and acknowledge the <a href="" target="_blank">Privacy Policy</a>.
+                            </p>
                             <div class="py-2">
-                                <button type="submit" class="btn btn-success form-control">Zarejestruj się</button>
+                                <button type="submit" class="btn btn-success form-control">Sign On</button>
                             </div>
                             <hr />
-                            <p>
-                                Klikajac <em>Zarejestruj się</em> oświadczasz, że zapoznałeś się z treścią <a href="" target="_blank">regulaminu</a> oraz akceptujesz jego treść.
-                            </p>
+
                         </div>
                     </div>
                 </div>
