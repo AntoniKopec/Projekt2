@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "L7rmlE/8hNTIK61ybzLSjmjZTM+ka3zrvqeswzVORjubKLfbEqa0Hr6oVkvrbMCXG2cX6SzFmKh4JSym6dol/A==",
+  "dgSpecHash": "B8CYkrWO01I4OINApu30auRn7GX4Jpk+uQ9InhK3MVQ12czkQdng0aGgcLxzGRqytNlEDedQbo9Vf9lKd7YVtA==",
   "success": true,
   "projectFilePath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator\\Restaurator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\szysz\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\szysz\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\szysz\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\szysz\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\3.1.14\\microsoft.aspnetcore.authentication.facebook.3.1.14.nupkg.sha512",
     "C:\\Users\\szysz\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\szysz\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "C:\\Users\\szysz\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
