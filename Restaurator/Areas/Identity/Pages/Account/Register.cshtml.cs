@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using Restaurator.Models;
+using Restaurator.Models.Models;
 using Restaurator.Utility;
 
 namespace Restaurator.Areas.Identity.Pages.Account

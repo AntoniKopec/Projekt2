@@ -1,5 +1,5 @@
 ﻿using Restaurator.DataAccess.Data.Repository.IRepository;
-using Restaurator.Models;
+using Restaurator.Models.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;

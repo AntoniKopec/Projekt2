@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace Restaurator.Models
+namespace Restaurator.Models.Models
 {
    public class ApplicationUser : IdentityUser
     {

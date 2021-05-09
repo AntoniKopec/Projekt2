@@ -5,8 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Data\Initializer\**" />
     <Compile Remove="Initializer\**" />
+    <EmbeddedResource Remove="Data\Initializer\**" />
     <EmbeddedResource Remove="Initializer\**" />
+    <None Remove="Data\Initializer\**" />
     <None Remove="Initializer\**" />
   </ItemGroup>
 
@@ -19,10 +22,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Restaurator.Models\Restaurator.Models.csproj" />
     <ProjectReference Include="..\Restaurator.Utility\Restaurator.Utility.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Data\Initializer\" />
   </ItemGroup>
 
 </Project>

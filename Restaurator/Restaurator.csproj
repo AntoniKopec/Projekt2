@@ -6,6 +6,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Pages\Admin\User\Favourite\**" />
+    <Compile Remove="Pages\Admin\User\Home\**" />
+    <Content Remove="Pages\Admin\User\Favourite\**" />
+    <Content Remove="Pages\Admin\User\Home\**" />
+    <EmbeddedResource Remove="Pages\Admin\User\Favourite\**" />
+    <EmbeddedResource Remove="Pages\Admin\User\Home\**" />
+    <None Remove="Pages\Admin\User\Favourite\**" />
+    <None Remove="Pages\Admin\User\Home\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.12" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.13" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.13" />
@@ -24,8 +35,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Admin\User\Home\" />
-    <Folder Include="Pages\Admin\User\Favourite\" />
     <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 

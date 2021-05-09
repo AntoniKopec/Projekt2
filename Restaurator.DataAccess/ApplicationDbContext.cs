@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Restaurator.Models;
+using Restaurator.Models.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
