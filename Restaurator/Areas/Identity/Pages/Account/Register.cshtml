@@ -7,92 +7,93 @@
 
 
 
-    <div class="py-4 my-4">
-        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        <div class="row form-group">
-            <div class="col-8 offset-2">
-                <div class="card">
-                    <div class="card-body px-lg-5 pt-4">
-                        <form method="post" autocomplete="off" asp-route-returnUrl="@Model.ReturnUrl">
-                            <h3 class="col-12 text-success text-center py-4"><strong>Sign On</strong></h3>
-                            <hr />
-                            <div class="py-2">
+<div class="py-4 my-4">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="row form-group">
+        <div class="col-8 offset-2">
+            <div class="card">
+                <div class="card-body px-lg-5 pt-4">
+                    <form method="post" autocomplete="off" asp-route-returnUrl="@Model.ReturnUrl">
+                        <h3 class="col-12 text-success text-center py-4"><strong>Sign On</strong></h3>
+                        <hr />
+                        <div class="py-2">
+                            <div>
+                                <input type="text" asp-for="Input.UserName" autocomplete="off" placeholder="User Name" class="form-control" />
+                                <span asp-validation-for="Input.UserName" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-row py-2">
+                            <div class="col">
                                 <div>
-                                    <input type="text" asp-for="Input.UserName" autocomplete="off" placeholder="User Name" class="form-control" />
-                                    <span asp-validation-for="Input.UserName" class="text-danger"></span>
+                                    <input type="text" asp-for="Input.FirstName" autocomplete="off" placeholder="First Name" class="form-control" />
+                                    <span asp-validation-for="Input.FirstName" class="text-danger"></span>
                                 </div>
                             </div>
-                            <div class="form-row py-2">
-                                <div class="col">
-                                    <div>
-                                        <input type="text" asp-for="Input.FirstName" autocomplete="off" placeholder="First Name" class="form-control" />
-                                        <span asp-validation-for="Input.FirstName" class="text-danger"></span>
-                                    </div>
+                            <div class="col">
+                                <div>
+                                    <input type="text" asp-for="Input.LastName" autocomplete="off" placeholder="Last Name" class="form-control" />
+                                    <span asp-validation-for="Input.LastName" class="text-danger"></span>
                                 </div>
-                                <div class="col">
-                                    <div>
-                                        <input type="text" asp-for="Input.LastName" autocomplete="off" placeholder="Last Name" class="form-control" />
-                                        <span asp-validation-for="Input.LastName" class="text-danger"></span>
-                                    </div>
-                                </div>
+                            </div>
 
+                        </div>
+                        <div class="py-2">
+                            <div>
+                                <input type="email" asp-for="Input.Email" autocomplete="off" placeholder="Email" class="form-control" />
+                                <span asp-validation-for="Input.Email" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="py-2">
+                            <div>
+                                <input type="password" asp-for="Input.Password" autocomplete="off" placeholder="Password" class="form-control" />
+                                <span asp-validation-for="Input.Password" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="py-2">
+                            <div>
+                                <input type="password" asp-for="Input.ConfirmPassword" autocomplete="off" placeholder="Cofirm Password" class="form-control" />
+                                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
                             </div>
                             <div class="py-2">
-                                <div>
-                                    <input type="email" asp-for="Input.Email" autocomplete="off" placeholder="Email" class="form-control" />
-                                    <span asp-validation-for="Input.Email" class="text-danger"></span>
-                                </div>
+                                <input type="radio" name="rdUserRole" value="@StaticDetails.UserRole" /> @StaticDetails.UserRole
+                                <input type="radio" name="rdUserRole" value="@StaticDetails.AdminRole" /> @StaticDetails.AdminRole
                             </div>
-                            <div class="py-2">
-                                <div>
-                                    <input type="password" asp-for="Input.Password" autocomplete="off" placeholder="Password" class="form-control" />
-                                    <span asp-validation-for="Input.Password" class="text-danger"></span>
-                                </div>
-                            </div>
-                            <div class="py-2">
-                                <div>
-                                    <input type="password" asp-for="Input.ConfirmPassword" autocomplete="off" placeholder="Cofirm Password" class="form-control" />
-                                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-                                </div>
-                                <div class="py-2">
-                                    <input type="radio" name="rdUserRole" value="@StaticDetails.UserRole" /> @StaticDetails.UserRole
-                                    <input type="radio" name="rdUserRole" value="@StaticDetails.AdminRole" /> @StaticDetails.AdminRole
-                                </div>
 
-                                <div class="py-2">
-                                    <button type="submit" class="btn btn-success form-control">Sign On</button>
-                                </div>
+                            <div class="py-2">
+                                <button type="submit" class="btn btn-success form-control">Sign On</button>
                             </div>
-                        </form>
-                        <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
-                            <p class="text-center">
-                                I agree to the <a href="" target="_blank">Term of Use </a> and I have read and acknowledge the <a href="" target="_blank">Privacy Policy</a>.
+                        </div>
+                    </form>
+                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                        <p class="text-center">
+                            I agree to the <a href="" target="_blank">Term of Use </a> and I have read and acknowledge the <a href="" target="_blank">Privacy Policy</a>.
+                        </p>
+                        <h5 class="text-center">Use another service to register.</h5>
+                        <hr />
+                        <div class="row">
+                            <p>
+                                @foreach (var provider in Model.ExternalLogins)
+                                {
+
+                                    <div class="col-6 mx-auto">
+                                        @if (provider.Name.ToLower().Contains("facebook"))
+                                        {
+                                            <button type="submit" class="btn btn-primary facebook-btn form-control" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account"><i class="fab fab fa-facebook-square"></i> Sign Up with  @provider.DisplayName</button>
+                                        }
+                                        else
+                                        {
+                                            <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                        }
+                                    </div>
+                                }
                             </p>
-                            <hr />
-                            <div class="row">
-                                <p>
-                                    @foreach (var provider in Model.ExternalLogins)
-                                    {
-
-                                        <div class="col-6 mx-auto">
-                                            @if (provider.Name.ToLower().Contains("facebook"))
-                                            {
-                                                <button type="submit" class="btn btn-primary facebook-btn form-control" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account"><i class="fab fab fa-facebook-square"></i> Sign Up with  @provider.DisplayName</button>
-                                            }
-                                            else
-                                            {
-                                                <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
-                                            }
-                                        </div>
-                                    }
-                                </p>
-                            </div>
-                        </form>
-                    </div>
-                    </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
