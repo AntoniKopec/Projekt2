@@ -91,9 +91,6 @@ C:\Users\szysz\source\repos\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Rest
 C:\Users\szysz\source\repos\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Restaurator.genruntimeconfig.cache
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
-C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Restaurator.StaticWebAssets.xml
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Restaurator.exe
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Restaurator.deps.json
@@ -1432,3 +1429,5 @@ C:\Users\szysz\Source\Repos\Restaurator2\Restaurator\obj\Debug\netcoreapp3.1\Res
 C:\Users\szysz\Source\Repos\Restaurator2\Restaurator\obj\Debug\netcoreapp3.1\Restaurator.genruntimeconfig.cache
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\User\Index.cshtml.g.cs
 C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\scopedcss\bundle\Restaurator.styles.css

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj": {}
+    "C:\\Users\\anton\\Desktop\\Projekt_2\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj": {
+    "C:\\Users\\anton\\Desktop\\Projekt_2\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\anton\\Desktop\\Projekt_2\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj",
         "projectName": "Restaurator.Utility",
-        "projectPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj",
-        "packagesPath": "C:\\Users\\szysz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator\\Restaurator.Utility\\obj\\",
+        "projectPath": "C:\\Users\\anton\\Desktop\\Projekt_2\\Restaurator\\Restaurator.Utility\\Restaurator.Utility.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anton\\Desktop\\Projekt_2\\Restaurator\\Restaurator.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\szysz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
