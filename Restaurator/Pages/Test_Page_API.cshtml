@@ -36,6 +36,23 @@
                 });
                 */
 
+                var markers = [
+                    {
+                        coords: { lat: 52.14, lng: 21.02 },
+                        iconImage: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+                        content: '<h1>Restaurant</h1>'
+                    },
+                    {
+                        coords: { lat: 52.44, lng: 21.22 }
+                    }
+
+                ];
+
+                for (var i = 0; i < markers.length; i++) {
+                    addMarker(markers[i]);
+                }
+
+                /*
                 addMarker({
                     coords: { lat: 52.14, lng: 21.02 },
                     iconImage: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
@@ -45,7 +62,7 @@
                 addMarker({
                     coords: { lat: 52.44, lng: 21.22 }
                 });
-
+                */
                 function addMarker(props) {
                     var marker = new google.maps.Marker({
                         position:props.coords,
