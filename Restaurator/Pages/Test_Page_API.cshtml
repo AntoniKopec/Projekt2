@@ -36,15 +36,25 @@
                 });
                 */
 
-                addMarker({ lat: 52.14, lng: 21.02 });
+                addMarker({
+                    coords: { lat: 52.14, lng: 21.02 },
+                    iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+                });
 
-                addMarker({ lat: 52.44, lng: 21.22 });
+                addMarker({
+                    coords: { lat: 52.44, lng: 21.22 }
+                });
 
-                function addMarker(coords) {
+                function addMarker(props) {
                     var marker = new google.maps.Marker({
-                        position:coords,
-                        map: map
+                        position:props.coords,
+                        map: map,
+                        //icon:props.iconImage
                     });
+
+                    if (props.iconImage){
+                        marker.setIcon(props.iconImage);
+                    }
                 }
             }
 
