@@ -21,7 +21,7 @@
 
                 var map = new
                     google.maps.Map(document.getElementById("map"), options);
-
+                /*
                 var marker = new google.maps.Marker({
                     position: { lat: 52.14, lng: 21.02 },
                     map: map
@@ -34,7 +34,18 @@
                 marker.addListener('click', function () {
                     infoWindow.open(map, marker);
                 });
+                */
 
+                addMarker({ lat: 52.14, lng: 21.02 });
+
+                addMarker({ lat: 52.44, lng: 21.22 });
+
+                function addMarker(coords) {
+                    var marker = new google.maps.Marker({
+                        position:coords,
+                        map: map
+                    });
+                }
             }
 
 
