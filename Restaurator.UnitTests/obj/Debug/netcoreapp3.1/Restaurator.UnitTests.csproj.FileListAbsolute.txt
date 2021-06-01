@@ -502,3 +502,4 @@ C:\Users\szysz\Source\Repos\Restaurator\Restaurator.UnitTests\obj\Debug\netcorea
 C:\Users\szysz\Source\Repos\Restaurator\Restaurator.UnitTests\obj\Debug\netcoreapp3.1\Restaurator.UnitTests.dll
 C:\Users\szysz\Source\Repos\Restaurator\Restaurator.UnitTests\obj\Debug\netcoreapp3.1\Restaurator.UnitTests.pdb
 C:\Users\szysz\Source\Repos\Restaurator\Restaurator.UnitTests\obj\Debug\netcoreapp3.1\Restaurator.UnitTests.genruntimeconfig.cache
+C:\Users\szysz\Source\Repos\Restaurator\Restaurator.UnitTests\bin\Debug\netcoreapp3.1\Restaurator.StaticWebAssets.xml
