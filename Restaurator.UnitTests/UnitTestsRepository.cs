@@ -1,13 +1,11 @@
+using Moq;
+using System;
 using Xunit;
 
 namespace Restaurator.UnitTests
 {
-    public class UnitTestsRepository
+    public class UnitTest1
     {
-        [Fact]
-        public void Test1()
-        {
 
-        }
     }
 }
