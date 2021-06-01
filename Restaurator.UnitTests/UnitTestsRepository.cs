@@ -14,14 +14,17 @@ namespace Restaurator.UnitTests
         public void Get_RepositoryTest_CheckMethod()
         {
             // Arrange
+
             var repositoryObject = new RepositoryTest();
             var context = new Mock<DbContext>();
             var dbSetMock = new Mock<DbSet<RepositoryTest>>();
             context.Setup(x => x.Set<RepositoryTest>()).Returns(dbSetMock.Object);
             dbSetMock.Setup(x => x.Find(It.IsAny<int>())).Returns(repositoryObject);
+
             // Act
             var repository = new Repository<RepositoryTest>(context.Object);
             repository.Get(1);
+
             // Assert
             context.Verify(x => x.Set<RepositoryTest>());
             dbSetMock.Verify(x => x.Find(It.IsAny<int>()));
@@ -30,7 +33,8 @@ namespace Restaurator.UnitTests
         public void GetAll_RepositoryTest_CheckMethod()
         {
             // Arrange
-            var repositoryObject = new RepositoryTest() { Id = 1 };
+
+            var repositoryObject = new RepositoryTest() { Id = 3};
             var repositoryList = new List<RepositoryTest>() { repositoryObject };
             var dbSetMock = new Mock<DbSet<RepositoryTest>>();
             dbSetMock.As<IQueryable<RepositoryTest>>().Setup(x => x.Provider).Returns(repositoryList.AsQueryable().Provider);
@@ -39,11 +43,14 @@ namespace Restaurator.UnitTests
             dbSetMock.As<IQueryable<RepositoryTest>>().Setup(x => x.GetEnumerator()).Returns(repositoryList.AsQueryable().GetEnumerator());
             var context = new Mock<DbContext>();
             context.Setup(x => x.Set<RepositoryTest>()).Returns(dbSetMock.Object);
+
             // Act
             var repository = new Repository<RepositoryTest>(context.Object);
             var result = repository.GetAll();
+
             // Assert
             Assert.Equal(repositoryList, result.ToList());
+            Assert.NotEmpty(result.ToList());
         }
         [Fact]
         public void GetFirstOrDefault_RepositoryTest_CheckMethod()
@@ -58,11 +65,15 @@ namespace Restaurator.UnitTests
             dbSetMock.As<IQueryable<RepositoryTest>>().Setup(x => x.GetEnumerator()).Returns(repositoryList.AsQueryable().GetEnumerator());
             var context = new Mock<DbContext>();
             context.Setup(x => x.Set<RepositoryTest>()).Returns(dbSetMock.Object);
+
             // Act
             var repository = new Repository<RepositoryTest>(context.Object);
             var result = repository.GetFirstOrDefault(x => x.Id == 1);
+
             // Assert
             Assert.Equal(repositoryObject, result);
+            Assert.NotNull(result);
+            Assert.Same(repositoryObject, result);
         }
         [Fact]
         public void Add_RepositoryTest_CheckMethod()
@@ -72,9 +83,11 @@ namespace Restaurator.UnitTests
             var context = new Mock<DbContext>();
             var dbSetMock = new Mock<DbSet<RepositoryTest>>();
             context.Setup(x => x.Set<RepositoryTest>()).Returns(dbSetMock.Object);
+
             // Act
             var repository = new Repository<RepositoryTest>(context.Object);
             repository.Add(repositoryObject);
+
             //Assert
             context.Verify(x => x.Set<RepositoryTest>());
             dbSetMock.Verify(x => x.Add(It.Is<RepositoryTest>(y => y == repositoryObject)));
@@ -87,9 +100,11 @@ namespace Restaurator.UnitTests
             var context = new Mock<DbContext>();
             var dbSetMock = new Mock<DbSet<RepositoryTest>>();
             context.Setup(x => x.Set<RepositoryTest>()).Returns(dbSetMock.Object);
+
             // Act
             var repository = new Repository<RepositoryTest>(context.Object);
             repository.Remove(repositoryObject);
+
             //Assert
             context.Verify(x => x.Set<RepositoryTest>());
             dbSetMock.Verify(x => x.Remove(It.Is<RepositoryTest>(y => y == repositoryObject)));
