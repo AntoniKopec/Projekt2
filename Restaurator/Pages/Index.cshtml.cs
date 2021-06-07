@@ -42,7 +42,7 @@ namespace Restaurator.Pages
                     Name = x.Element("name").Value,
                     Vicinity = x.Element("vicinity").Value,
                     Rating = x.Element("rating").Value,
-                    Website = x.Element("website").Value,
+                   // Website = x.Element("website").Value,
                     Lat = x.Element("geometry").Element("location").Element("lat").Value,
                     Lng = x.Element("geometry").Element("location").Element("lng").Value,
                     Opening_hours = x.Descendants("weekday_text").Select(y => y.Value).ToList()
