@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Restaurator.Models.Models
 {
-    class PlaceDetailsModel
+    public class PlaceDetailsModel
     {
         public string Name { get; set; }
         public string Vicinity { get; set; }
