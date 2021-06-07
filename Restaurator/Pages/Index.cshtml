@@ -39,28 +39,30 @@
     <br />
 
     <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-4 ex3">
 
             @if (ViewData["placeDetailsModel"] != null)
             {
                 foreach (var item in ViewData["placeDetailsModel"] as IEnumerable<PlaceDetailsModel>)
                 {
-                    @item.Name<br />
-                    @item.Vicinity<br />
-                    <a href="@item.Website">@item.Website</a><br />
-                    @item.Rating<br />
+            <div class="card">
+                <a href="@item.Website">@item.Name</a>
+                @item.Vicinity<br />
+                @item.Rating<br />
+            </div>
+
                 }
             }
         </div>
 
-        <div class="col-md-10">
-            <div id="dvMap" style="width: 500px; height: 500px">
+        <div class="col-md-8">
+            <div id="dvMap" style="width: 900px; height: 700px">
             </div>
             <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuzPcOAZnhzFy4tt1YMLI65d2zXVYfOrs"></script>
-            @if (ViewBag.Markers != null)
+            @if (ViewData["markers"] != null)
             {
                 <script type="text/javascript">
-        var markers = @Html.Raw(ViewBag.Markers);
+        var markers = @Html.Raw(ViewData["markers"]);
         window.onload = function () {
             var mapOptions = {
                 center: new google.maps.LatLng(markers[0].lat, markers[0].lng),

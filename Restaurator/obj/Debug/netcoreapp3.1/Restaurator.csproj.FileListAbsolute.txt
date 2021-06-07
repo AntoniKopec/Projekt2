@@ -176,7 +176,6 @@ C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\obj\Debug\netcoreapp3.1
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Restaurator.dll
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Restaurator.pdb
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Restaurator.genruntimeconfig.cache
-C:\Users\szysz\Source\Repos\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\Razor\Pages\Test_Page_API.cshtml.g.cs
 C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
 C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
 C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll

@@ -282,3 +282,8 @@ body {
     width: 210px !important;
     margin: 0 auto;
 }
+div.ex3{
+    width: 200px;
+    height: 700px;
+    overflow: auto;
+}
