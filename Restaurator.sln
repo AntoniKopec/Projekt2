@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurator.Models", "Resta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurator.Utility", "Restaurator.Utility\Restaurator.Utility.csproj", "{C3E0318F-FD05-4507-9535-1503D0289B3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurator.UnitTests", "Restaurator.UnitTests\Restaurator.UnitTests.csproj", "{9587274D-E5CE-4482-9D93-766D25C3A5B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurator.UnitTests", "Restaurator.UnitTests\Restaurator.UnitTests.csproj", "{9587274D-E5CE-4482-9D93-766D25C3A5B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurator.SeleniumTests", "Restaurator.SeleniumTests\Restaurator.SeleniumTests.csproj", "{0D6813DF-B5AA-40C8-8D63-B1273817581A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9587274D-E5CE-4482-9D93-766D25C3A5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9587274D-E5CE-4482-9D93-766D25C3A5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9587274D-E5CE-4482-9D93-766D25C3A5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6813DF-B5AA-40C8-8D63-B1273817581A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6813DF-B5AA-40C8-8D63-B1273817581A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6813DF-B5AA-40C8-8D63-B1273817581A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6813DF-B5AA-40C8-8D63-B1273817581A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
