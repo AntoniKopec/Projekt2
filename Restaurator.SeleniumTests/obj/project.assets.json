@@ -455,6 +455,9 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Selenium.Opera.WebDriver/2.30.0": {
+        "type": "package"
+      },
       "Selenium.WebDriver/3.141.0": {
         "type": "package",
         "dependencies": {
@@ -465,6 +468,12 @@
         },
         "runtime": {
           "lib/netstandard2.0/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.MSEdgeDriver/91.0.864.37": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.MSEdgeDriver.targets": {}
         }
       },
       "System.AppContext/4.1.0": {
@@ -1896,6 +1905,22 @@
         "runtime.native.system.nuspec"
       ]
     },
+    "Selenium.Opera.WebDriver/2.30.0": {
+      "sha512": "CHJpuU2QBsoXvorLpaqlTyMA2krzb9nXMnB68+ZjBh7+8VHbzRoCjmPW938i1qENoz7Ka7brc1JpX8aiIFGN2w==",
+      "type": "package",
+      "path": "selenium.opera.webdriver/2.30.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.WebDriver.OperaDriver.targets",
+        "driver/linux64/operadriver",
+        "driver/mac64/operadriver",
+        "driver/win32/operadriver.exe",
+        "driver/win64/operadriver.exe",
+        "selenium.opera.webdriver.2.30.0.nupkg.sha512",
+        "selenium.opera.webdriver.nuspec"
+      ]
+    },
     "Selenium.WebDriver/3.141.0": {
       "sha512": "wPqzXO3f79DzqauTZSzLMKiaBCN0Z2Mv7KvWP+hnV6EL88zh/pJJnFtdIR1X5wa3hsTOpF/bBJs45rz7kArsiA==",
       "type": "package",
@@ -1913,6 +1938,22 @@
         "lib/netstandard2.0/WebDriver.xml",
         "selenium.webdriver.3.141.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.MSEdgeDriver/91.0.864.37": {
+      "sha512": "wmyEgZaG+mAd9hKRmGDO5G2cFsO7/qAtZJhhVVMn+e5DbVQIrmoPv6X/FpC2t8HtbE3fSjbcSbvF2yA+2CWmhA==",
+      "type": "package",
+      "path": "selenium.webdriver.msedgedriver/91.0.864.37",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.WebDriver.MSEdgeDriver.targets",
+        "driver/mac64/msedgedriver",
+        "driver/win32/msedgedriver.exe",
+        "driver/win64/msedgedriver.exe",
+        "license/license.txt",
+        "selenium.webdriver.msedgedriver.91.0.864.37.nupkg.sha512",
+        "selenium.webdriver.msedgedriver.nuspec"
       ]
     },
     "System.AppContext/4.1.0": {
@@ -4549,7 +4590,9 @@
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
       "NUnit3TestAdapter >= 3.16.1",
-      "Selenium.WebDriver >= 3.141.0"
+      "Selenium.Opera.WebDriver >= 2.30.0",
+      "Selenium.WebDriver >= 3.141.0",
+      "Selenium.WebDriver.MSEdgeDriver >= 91.0.864.37"
     ]
   },
   "packageFolders": {
@@ -4603,9 +4646,17 @@
             "target": "Package",
             "version": "[3.16.1, )"
           },
+          "Selenium.Opera.WebDriver": {
+            "target": "Package",
+            "version": "[2.30.0, )"
+          },
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[3.141.0, )"
+          },
+          "Selenium.WebDriver.MSEdgeDriver": {
+            "target": "Package",
+            "version": "[91.0.864.37, )"
           }
         },
         "imports": [

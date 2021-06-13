@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZCuLK/AfdevwdcN/D5fU6Zah8JNLnOMjUJh+Hf5OT7O3XSAHPIUIDJCYbVJlb5lEhEuCVQ/Hb2g6pxeRZ5D+2g==",
+  "dgSpecHash": "LDznCpe37pzIpfktObBVmbZZRHnsU8Jh5oDhRHG5/1w3F8Z3jXU8ERi4+rR4G7/OXOtRdaBSttAmAIO4d3peFQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\szysz\\Source\\Repos\\Restaurator2\\Restaurator.SeleniumTests\\Restaurator.SeleniumTests.csproj",
   "expectedPackageFiles": [
@@ -20,7 +20,9 @@
     "C:\\Users\\szysz\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
     "C:\\Users\\szysz\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
     "C:\\Users\\szysz\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Users\\szysz\\.nuget\\packages\\selenium.opera.webdriver\\2.30.0\\selenium.opera.webdriver.2.30.0.nupkg.sha512",
     "C:\\Users\\szysz\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
+    "C:\\Users\\szysz\\.nuget\\packages\\selenium.webdriver.msedgedriver\\91.0.864.37\\selenium.webdriver.msedgedriver.91.0.864.37.nupkg.sha512",
     "C:\\Users\\szysz\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\szysz\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\szysz\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
