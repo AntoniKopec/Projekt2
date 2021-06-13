@@ -1415,7 +1415,6 @@ C:\Users\szysz\Source\Repos\Restaurator2\Restaurator\obj\Debug\netcoreapp3.1\Raz
 C:\Users\szysz\Source\Repos\Restaurator2\Restaurator\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\szysz\Source\Repos\Restaurator2\Restaurator\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\szysz\Source\Repos\Restaurator2\Restaurator\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\szysz\Source\Repos\Restaurator2\Restaurator\obj\Debug\netcoreapp3.1\Razor\Pages\Test_Page_API.cshtml.g.cs
 C:\Users\szysz\Source\Repos\Restaurator2\Restaurator\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
 C:\Users\szysz\Source\Repos\Restaurator2\Restaurator\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
 C:\Users\szysz\Source\Repos\Restaurator2\Restaurator\obj\Debug\netcoreapp3.1\Restaurator.RazorTargetAssemblyInfo.cache
@@ -1429,3 +1428,4 @@ C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\obj\Debug\netcoreapp3.1
 C:\Users\szysz\Source\Repos\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
 C:\Users\anton\Desktop\Projekt_2\Restaurator\Restaurator\obj\Debug\netcoreapp3.1\scopedcss\bundle\Restaurator.styles.css
+C:\Users\szysz\Source\Repos\Restaurator2\Restaurator\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
